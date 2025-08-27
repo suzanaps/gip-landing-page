@@ -1,5 +1,7 @@
-const config = {
-  plugins: ["@tailwindcss/postcss"],
+export default {
+	plugins: {
+		"postcss-preset-mantine": {},
+		"postcss-simple-vars": {},
+		"@tailwindcss/postcss": {},
+	},
 };
-
-export default config;
